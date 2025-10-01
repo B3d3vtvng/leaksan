@@ -20,7 +20,8 @@
 
 
 Disclaimer: This library is neither thread-save (might change in the future) nor production ready. 
-Please use at your own risk. Linux should be supported but not tested for.
+Please use at your own risk. Currently, only macOS is supported as I suppose that linux has enough leak
+sanitization tools (valgrind, -fsanitize=leak, ...).
 
 ## Inner Workings
 

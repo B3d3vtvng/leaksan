@@ -1,3 +1,7 @@
+#ifndef __APPLE__
+#error "This library currently only supports macOS."
+#endif
+
 #ifndef LKSAN_H
 #define LKSAN_H
 
