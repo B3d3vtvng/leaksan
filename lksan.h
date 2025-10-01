@@ -2,6 +2,10 @@
 #error "This library currently only supports macOS."
 #endif
 
+#ifdef __cplusplus__
+#error "This library does not support C++ as of now."
+#endif
+
 #ifndef LKSAN_H
 #define LKSAN_H
 
